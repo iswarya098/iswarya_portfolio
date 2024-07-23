@@ -163,7 +163,6 @@ section .btn {
     height: 100%;
     display: flex;
     align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
     opacity: 0;
     transition: opacity 0.3s ease;
     background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
@@ -181,7 +180,7 @@ section .btn {
 
 /* Show overlay on hover */
 .home-image1:hover .overlay {
-    opacity: 1;
+    opacity: 2;
 }
 
 /* Contact Section */
