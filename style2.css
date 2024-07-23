@@ -148,7 +148,7 @@ section .btn {
     width: 100px; /* Adjust as needed */
 }
 
-.image {
+.image1 {
     width: 100%;
     height: auto;
     display: block;
@@ -159,7 +159,7 @@ section .btn {
     position: absolute;
     top: 0;
     right: 0; /* Align overlay to the right */
-    width: 80px; /* Adjust width to fit icons */
+    width: 150px; /* Adjust width to fit icons */
     height: 100%;
     display: flex;
     flex-direction: column; /* Stack icons vertically */
@@ -182,7 +182,7 @@ section .btn {
 
 /* Show overlay on hover */
 .home-image1:hover .overlay {
-    opacity: 1;
+    opacity: 5;
 }
 
 
