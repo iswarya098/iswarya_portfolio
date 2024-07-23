@@ -142,10 +142,46 @@ section .btn {
 .experience-item ul li {
     margin: 0.5rem 0;
 }
+/* Container for image and overlay */
 .home-image1 img {
-    width: 200px;
-    border-radius: 50%;
+    position: relative;
+    width: 300px; /* Adjust as needed */
 }
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Overlay container */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+}
+
+/* Icons */
+.icon {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Show overlay on hover */
+.home-image1:hover .overlay {
+    opacity: 1;
+}
+
 
 
 /* Education Section */
