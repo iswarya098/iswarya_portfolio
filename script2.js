@@ -6,16 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         menuBars.classList.toggle("fa-times");
         navbar.classList.toggle("active");
     });
-    // Example of adding a click event to toggle overlay visibility
-document.getElementById('home-image1').addEventListener('click', function() {
-    const overlay = document.getElementById('overlay');
-    // Toggle the visibility of the overlay
-    if (overlay.style.opacity === '1') {
-        overlay.style.opacity = '0';
-    } else {
-        overlay.style.opacity = '1';
-    }
-});
+    
 
 
     window.onscroll = () => {
