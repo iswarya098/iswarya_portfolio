@@ -145,7 +145,7 @@ section .btn {
 /* Container for image and overlay */
 .home-image1 {
     position: relative;
-    width: 100px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
 }
 
 .image1 {
@@ -168,21 +168,21 @@ section .btn {
     opacity: 0;
     transition: opacity 0.3s ease;
     background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
-    color: white; /* Icon color */
-    font-size: 20px; /* Icon size */
+    color: green; /* Icon color */
+    font-size: 15px; /* Icon size */
     padding: 10px; /* Padding around icons */
 }
 
 /* Icons */
 .icons {
-    color: white;
+    color: blue;
     margin: 0 10px;
     text-decoration: none;
 }
 
 /* Show overlay on hover */
 .home-image1:hover .overlay {
-    opacity: 5;
+    opacity: 4;
 }
 
 
