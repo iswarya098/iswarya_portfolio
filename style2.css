@@ -1,4 +1,3 @@
-
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -142,6 +141,7 @@ section .btn {
 .experience-item ul li {
     margin: 0.5rem 0;
 }
+
 /* Container for image and overlay */
 .home-image1 {
     position: relative;
@@ -184,8 +184,17 @@ section .btn {
     opacity: 1;
 }
 
+/* Contact Section */
+.icons-container {
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    align-items: center; /* Center align text and icons */
+}
 
-
+.icons i {
+    color: blue; /* Change the icon color here */
+    margin-bottom: 0.5rem; /* Space between icon and text */
+}
 
 /* Education Section */
 .education-item {
@@ -238,74 +247,3 @@ section .btn {
     font-size: 1rem;
     border-radius: 5px;
 }
-
-        
-
-       
-    </div>
-
-</section>
-
-<!-- project section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-    <h1 class="heading"> contact <span> me </span> </h1>
-
-    <div class="icons-container">
-
-        <div class="icons">
-            <i class="fas fa-envelope"></i>
-            <h3>my email</h3>
-            <p>keerthika3013@gmail.com</p>
-            
-        </div>
-
-        <div class="icons">
-            <i class="fas fa-phone"></i>
-            <h3>my number</h3>
-            <p>+91 9176348382</p>
-            
-        </div>
-
-        <div class="icons">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3>my address</h3>
-            <p>No 30,flat-b 4th Street Dayalu Nagar Kolathur Chennai-600099 </p>
-        </div>
-
-    </div>
-   
-    
-   
-        <div class="row">
-
-            <form action="https://formspree.io/f/xdovlnnk"
-            method="POST" id="my-form">
-    
-                <input name="name" type="text" placeholder="name" class="box">
-                <input name="email " type="email" placeholder="email" class="box">
-                <input name="number" type="number" placeholder="number" class="box">
-    
-                <textarea name="message" placeholder="message" id="" cols="30" rows="10"></textarea>
-    
-                <input type="submit" class="btn" value="send message">
-    
-            </form>
-    
-    
-        </div>
-
-    </div>
-
-
-</section>
-
-
-<!-- contact section ends -->
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
-</body>
