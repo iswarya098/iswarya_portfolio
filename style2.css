@@ -145,7 +145,7 @@ section .btn {
 /* Container for image and overlay */
 .home-image1 {
     position: relative;
-    width: 300px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
 }
 
 .image1 {
@@ -182,7 +182,7 @@ section .btn {
 
 /* Show overlay on hover */
 .home-image1:hover .overlay {
-    opacity: 1;
+    opacity: 5;
 }
 
 
