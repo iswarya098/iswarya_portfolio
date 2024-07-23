@@ -148,7 +148,7 @@ section .btn {
     width: 200px; /* Adjust as needed */
 }
 
-.image1 {
+.image {
     width: 100%;
     height: auto;
     display: block;
@@ -163,7 +163,7 @@ section .btn {
     height: 100%;
     display: flex;
     flex-direction: column; /* Stack icons vertically */
-    justify-content: center;
+    justify-content: right;
     align-items: flex-end; /* Align icons to the right */
     opacity: 0;
     transition: opacity 0.3s ease;
