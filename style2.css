@@ -143,12 +143,12 @@ section .btn {
     margin: 0.5rem 0;
 }
 /* Container for image and overlay */
-.home-image1 img {
+.home-image1 {
     position: relative;
     width: 300px; /* Adjust as needed */
 }
 
-.image {
+.image1 {
     width: 100%;
     height: auto;
     display: block;
