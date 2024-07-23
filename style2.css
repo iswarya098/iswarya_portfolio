@@ -173,6 +173,7 @@ section .btn {
 
 /* Icons */
 .icons {
+    color: white;
     margin: 0 10px;
     text-decoration: none;
 }
