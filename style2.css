@@ -145,7 +145,7 @@ section .btn {
 /* Container for image and overlay */
 .home-image1 {
     position: relative;
-    width: 100px; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
 }
 
 .image1 {
@@ -162,13 +162,13 @@ section .btn {
     width: 100px; /* Adjust width to fit icons */
     height: 100%;
     display: flex;
-    flex-direction: column; /* Stack icons vertically */
+    flex-direction: column;   /* Stack icons vertically */
     justify-content: right;
-    align-items: flex-end; /* Align icons to the right */
+    align-items: flex-end;    /* Align icons to the right */
     opacity: 0;
     transition: opacity 0.3s ease;
     background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
-    color: green; /* Icon color */
+    color: white; /* Icon color */
     font-size: 15px; /* Icon size */
     padding: 10px; /* Padding around icons */
 }
