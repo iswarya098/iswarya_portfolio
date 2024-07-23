@@ -145,7 +145,7 @@ section .btn {
 /* Container for image and overlay */
 .home-image1 {
     position: relative;
-    width: 200px; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
 }
 
 .image1 {
