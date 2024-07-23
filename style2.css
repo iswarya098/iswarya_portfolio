@@ -162,7 +162,7 @@ section .btn {
     width: 100px; /* Adjust width to fit icons */
     height: 100%;
     display: flex;
-    flex-direction: column;   /* Stack icons vertically */
+    align-items: centre;   /* Stack icons vertically */
     justify-content: right;
     align-items: flex-end;    /* Align icons to the right */
     opacity: 0;
