@@ -182,7 +182,8 @@ section .btn {
 
 /* Show overlay on hover */
 .home-image1:hover .overlay {
-    transform: scale(0.8);
+    transform: scale(0.9);
+     transform: translateY(-50%);
     opacity: 2;
 }
 .icons a:hover {
