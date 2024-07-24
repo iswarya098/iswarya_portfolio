@@ -177,11 +177,16 @@ section .btn {
     color: white !important;
     margin: 0 10px;
     text-decoration: none;
+     transition: transform 0.3s;
 }
 
 /* Show overlay on hover */
 .home-image1:hover .overlay {
+    transform: scale(0.9);
     opacity: 2;
+}
+.icons a:hover {
+    transform: scale(1.2);
 }
 
 /* Contact Section */
