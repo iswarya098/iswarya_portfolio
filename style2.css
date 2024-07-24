@@ -160,12 +160,13 @@ section .btn {
     top: 0;
     right: 0; /* Align overlay to the right */
     width: 150px; /* Adjust width to fit icons */
-    height: 90%;
+    height: 100%;
     display: flex;
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
     opacity: 0;
     transition: opacity 0.3s ease;
+    transform-origin: center center; /* Adjust the origin point for scaling */
     background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
     color: white; /* Icon color */
     font-size: 15px; /* Icon size */
